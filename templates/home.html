@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% block content %} {% include "headers.html" %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    {{ bootstrap.load_css() }}
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+<div class="contain mt-5">
+    <h1>
+        Welcome {{username}}</h1>
+</div>
+
+<div class="sup ">
+    <h2>
+        Support The Journey By Completing Tasks And Maybe Earn Some Rewards In the Process
+    </h2>
+</div>
+<div class="image">
+    <img src="/static/images/block.svg">
+    <h3>
+        Massa
+    </h3>
+</div>
+<div id="tasks"  class="button">
+        <a id="first" href="/tasks" class="btn btn-primary btn-lg">All Task</a>
+        <a id="second" href="/add" class="btn btn-primary btn-lg">Add Task</a>
+    </div>
+
+{{ bootstrap.load_js() }}
+{% include "footer.html" %} {% endblock %}
+</body>
+</html>

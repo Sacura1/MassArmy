@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block content %} {% include "headers.html" %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {{ bootstrap.load_css() }}
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+<div id="add" class="container mt-5">
+        <h1 class="ttt">New Task</h1>
+        <form class="form" method="POST">
+            {% from 'bootstrap5/form.html' import render_form %}
+
+            {{ render_form(form) }}
+        </form>
+</div>
+
+{{ bootstrap.load_js() }}
+{% include "footer.html" %} {% endblock %}
+</body>
+</html>

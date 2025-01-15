@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block content %} {% include "headers.html" %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="static/css/styles.css">
+    {{ bootstrap.load_css() }}
+
+</head>
+<body>
+
+<div class="col-lg-8 col-md-10 mx-auto">
+    <div id="log" class="container mt-5">
+        <h1>Register</h1>
+        <form class="form" method="POST">
+            {% from 'bootstrap5/form.html' import render_form %}
+
+            {{ render_form(form) }}  <!-- Render the form in one line -->
+        </form>
+    </div>
+</div>
+    <!-- Load Bootstrap JS -->
+    {{ bootstrap.load_js() }}
+{% include "footer.html" %} {% endblock %}
+
+
+</body>
+</html>

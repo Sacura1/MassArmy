@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block content %} {% include "headers.html" %}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- Load Bootstrap CSS -->
+    {{ bootstrap.load_css() }}
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div id="Intro" class="container mt-5 text-center">
+       <h1> MassArmy</h1>
+    </div>
+    <div class="container mt-5 text-center">
+        <h2>If you are here That means You're One Of Us</h2>
+    </div> <br>
+    <div id="button" class="button">
+        <a id="but" href="/Login" class="btn btn-primary btn-lg">Login Now</a>
+        <a href="/register" class="btn btn-primary btn-lg">Register</a>
+    </div>
+
+    <div id="Second-intro" class="container mt-5 text-center">
+        <h2>Core Supporters Will Be Responsible For adding Tasks For the community To Participate</h2>
+    </div>
+    <!-- Load Bootstrap JS -->
+    {{ bootstrap.load_js() }}
+{% include "footer.html" %} {% endblock %}
+
+
+</body>
+</html>

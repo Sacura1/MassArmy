@@ -1,0 +1,237 @@
+body {
+background-color: lightgray;
+}
+
+#Intro h1{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+      color: #00fd67;
+    position: relative;
+    ;
+
+      border: 20px solid #333;
+      border-radius: 29px;
+      max-width: 850px;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+              0 0 20px rgba(0, 128, 255, 0.5);
+    background-image: linear-gradient(#1e1e1e, #9cc94d),
+    linear-gradient(45deg, #291076, orange, yellow, green, blue, indigo, violet);
+      font-size: 40px;
+
+}
+#Intro{
+        padding-left:150px;
+        padding-top:50px;
+}
+.one h2{
+    padding-top:-200px;
+}
+
+#Second-intro h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 15px solid lightgray;
+
+      border-radius: 29px;
+      max-width: 600px;
+    background-color: lightgray;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+              0 0 20px rgba(223, 116, 58, 0.5);
+      font-size: 25px;
+}
+#Second-intro{
+
+    padding-top:150px;
+    padding-left:250px;
+
+}
+
+
+.button{
+    margin-left:450px;
+    margin-top:50px;
+}
+#log{
+    padding-top:80px;
+}
+.button a{margin-left:30px;
+    border: 15px solid lightgray;
+    border-radius: 29px;
+}
+
+.contain h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top:70px;
+     border: 19px solid lightgray;
+    padding-left:20px;
+    margin-left:370px;
+    border-radius: 29px;
+    max-width: 500px;
+    background-color: lightgray;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+              0 0 20px rgba(223, 116, 58, 0.5);
+
+}
+
+
+.sup{
+    margin-top:70px;
+    font-size:20px;
+    border: 19px solid lightgray;
+
+    border-radius: 29px;
+    max-width: 750px;
+    background-color: lightgray;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+              0 0 20px rgba(109, 181, 232, 0.5);
+    margin-left:250px;
+
+}
+
+.image{
+    width:200px;
+    height:200px;
+   margin-left:500px;
+    margin-top:50px;
+}
+
+.image h3{
+    color: rgba(248, 23, 23, 0.22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    width:500px;
+    height:50px;
+   margin-left:50px;
+    margin-top:20px;
+}
+
+#tasks{
+    margin-top:100px;
+}
+
+#first{
+    width:150px;
+    height:auto;
+    position:relative;
+    right:70px;
+}
+
+#second{
+    width:150px;
+    height:auto;
+}
+#add{
+    margin-top:600px;
+    padding-top:50px;
+}
+.ttt{
+    color: #0d1711;
+}
+
+
+.cunt{
+    margin-top:70px;
+    font-size:20px;
+    border: 19px solid lightgray;
+
+    border-radius: 29px;
+    max-width: 750px;
+    background-color: lightgray;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+              0 0 20px rgba(109, 181, 232, 0.5);
+    margin-left:250px;
+}
+
+.cunt h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+
+#list{
+    padding-top:90px;
+    margin-left:250px;
+    color: #08f366;
+}
+
+
+@media (max-width: 812px) {
+    .contain h1{
+        padding: 30px;
+        align-items:center;
+        max-width:300px;
+        margin:auto;
+        margin-top:40px;
+        font-size:20px;
+        max-height:100px;
+
+
+    }}
+
+@media (max-width: 812px) {
+    .sup{
+        padding: 30px;
+        max-width:350px;
+        margin:auto;
+        margin-top:40px;
+        font-size:20px;
+        max-height:100px;
+        align-items:center;
+
+
+
+    }}
+
+
+@media (max-width: 812px) {
+    .sup h2{
+
+        font-size:18px;
+        align-items:center;
+        margin-top:-40px;
+        max-width:900px;
+    }}
+
+
+
+@media (max-width: 812px) {
+    .image{
+        padding: 30px;
+        max-width:350px;
+        margin:auto;
+        margin-top:40px;
+        font-size:20px;
+        max-height:100px;
+        align-items:center;
+    }}
+
+
+@media (max-width: 812px) {
+    #first{
+        margin-top:70px;
+        width:90%;
+        height:70%;
+        font-size:20px;
+        padding:10px;
+        margin-left: -250px;
+
+    }}
+
+@media (max-width: 812px) {
+    #second{
+        margin-top:70px;
+        width:80%;
+        height:70%;
+        font-size:20px;
+        padding:10px;
+        margin-left: 0px;
+
+    }}
+
+@media (max-width: 812px) {
+    .image h3{
+        margin:auto;
+        margin-top:30px;
+        color:red;
+        padding-left:-70px;
+    }}
