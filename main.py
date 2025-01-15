@@ -20,13 +20,21 @@ from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.orm import relationship
 # Import your forms from the forms.py
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 
+SECRET_KEY = os.getenv('SECRET_KEY')
+SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URI')
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'daedaedae'
 
 bootstrap = Bootstrap4(app)
+
+app.config['SECRET_KEY'] = SECRET_KEY
+app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
 
 ckeditor = CKEditor(app)
 
