@@ -21,7 +21,7 @@ background-color: lightgray;
    #Intro h1{
        font-size:20px;
        margin-top:20px;
-       margin-left:-79px;
+       margin-left:-100px;
        margin-right:29px;
        padding-top:10px;
        border: 12px solid #333;
@@ -64,7 +64,7 @@ background-color: lightgray;
 
 @media (max-width: 890px) {
  #Second-intro h2{
-       margin-left:-200px;
+       margin-left:-236px;
 
 
 
@@ -418,5 +418,16 @@ button{
        left:440px;
        right:200px;
        margin-left:-240px;
+
+}}
+
+@media (max-width: 890px) {
+   .button{
+       align-items:center;
+       position:relative;
+       left:-40px;
+
+
+
 
 }}
