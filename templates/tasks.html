@@ -3,36 +3,29 @@
 {% block content %} {% include "headers.html" %}
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Title</title>
     {{ bootstrap.load_css() }}
-    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
 
 </head>
 <body>
 
-<div class="">
-    <div>
-        <h1 style="margin-top:50px;margin-left:270px;font-size: 70px;color:gray;">Tasks</h1>
-        {% for tk in task %}
+<div id="ad">
+     <h1>Tasks</h1>
+</div>
+    {% for tk in task %}
+<div class="open-task">
 
-            <h1 style="border-radius: 29px;
-            max-width: 500px;background-color: lightgray;box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
-                      0 0 20px rgba(109, 181, 232, 0.5);
-            margin-left:270px;font-size:70px;
-            border: 19px solid lightgray;margin-top:50px;text-align: -webkit-center;color: darkslategray;font-weight: 900;">{{ tk.Name }}
-            </h1>
-            <h3  style="margin-top:10px;margin-left:650px;
-            font-size: 20px;border: 0px solid rgba(124,18,18,0.22);
-            max-width: 120px;background-color: #d3d3d3;box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
-                      0 0 20px rgba(109, 181, 232, 0.5);font-family: 'Cabin Sketch, cursive';font-weight: 900;">
-                <a style="text-align: center;margin-left: 15px;"
-                   href="{{ url_for('show_task',tk_id=tk.id) }}"> open task </a>
-        </h3>
-        </a>
+    <h2>{{ tk.Name }}</h2>
+    <h3><a href="{{ url_for('show_task',tk_id=tk.id) }}"> open task </a></h3>
+
     </div>
     {% endfor %}
-</div>
+
+
+
 
 
 {{ bootstrap.load_js() }}

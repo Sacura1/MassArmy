@@ -7,7 +7,6 @@ background-color: lightgray;
       color: #00fd67;
     position: relative;
     ;
-
       border: 20px solid #333;
       border-radius: 29px;
       max-width: 850px;
@@ -18,10 +17,28 @@ background-color: lightgray;
       font-size: 40px;
 
 }
+@media (max-width: 890px) {
+   #Intro h1{
+       font-size:20px;
+       margin-top:20px;
+       margin-left:-79px;
+       margin-right:29px;
+       padding-top:10px;
+       border: 12px solid #333;
+}}
+
 #Intro{
         padding-left:150px;
         padding-top:50px;
 }
+
+@media (max-width: 890px) {
+   #Intro{
+    font-size:20px;
+       margin-top:90px;
+       margin-left:auto;
+       padding-top:30px;
+}}
 .one h2{
     padding-top:-200px;
 }
@@ -45,17 +62,46 @@ background-color: lightgray;
 }
 
 
+@media (max-width: 890px) {
+ #Second-intro h2{
+       margin-left:-200px;
+
+
+
+}}
+
+
 .button{
     margin-left:450px;
     margin-top:50px;
 }
+
+@media (max-width: 890px) {
+   #button{
+       margin-left:50px;
+       width:120px;
+       height:60px;
+
+
+}}
+
 #log{
-    padding-top:80px;
+    padding-top:70px;
 }
 .button a{margin-left:30px;
     border: 15px solid lightgray;
     border-radius: 29px;
 }
+
+@media (max-width: 890px) {
+   .button a{
+       width:200px;
+       height:80px;
+       font-size:20px;
+       margin-left:30px;
+
+
+}}
 
 .contain h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -235,3 +281,122 @@ background-color: lightgray;
         color:red;
         padding-left:-70px;
     }}
+
+#ad h1{
+    margin-top:50px;
+    margin-left:270px;
+    font-size: 70px;
+    color:gray
+}
+.open-task h2{
+
+    border-radius: 29px;
+            max-width: 500px;
+    background-color: lightgray;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+                      0 0 20px rgba(109, 181, 232, 0.5);
+
+    margin-left:270px;font-size:70px;
+    border: 19px solid lightgray;
+    margin-top:50px;
+    text-align: -webkit-center;
+    color: darkslategray;
+    font-weight: 900;
+}
+
+.open-task h3{
+    font-family: 'Cabin Sketch, cursive';
+    margin-top:10px;margin-left:650px;
+    font-size: 20px;
+    border: 0px solid rgba(124,18,18,0.22);
+    max-width: 120px;
+    background-color: #d3d3d3;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+                      0 0 20px rgba(109, 181, 232, 0.5);
+    font-weight: 900;
+}
+
+.open-task a{
+    text-align: center;
+    margin-left: 15px;
+}
+
+@media (max-width: 812px) {
+    #ad h1{
+        margin-top:70px;
+        margin-left:270px;
+        font-size: 40px;
+        color:gray
+
+    }}
+
+
+
+@media (max-width: 812px) {
+   .open-task h2{
+        border-radius: 29px;
+            max-width: 500px;
+    background-color: lightgray;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+                      0 0 20px rgba(109, 181, 232, 0.5);
+
+    margin-left:120px;font-size:30px;
+    border: 19px solid lightgray;
+    margin-top:50px;
+    text-align: -webkit-center;
+    color: darkslategray;
+    font-weight: 900;
+}}
+
+
+
+
+@media (max-width: 812px) {
+   .open-task h3{
+    font-family: 'Cabin Sketch, cursive';
+    margin-top:10px;
+    font-size: 20px;
+    border: 0px solid rgba(124,18,18,0.22);
+    max-width: 120px;
+    background-color: #d3d3d3;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
+                      0 0 20px rgba(109, 181, 232, 0.5);
+    font-weight: 900;
+       margin-left: 305px;
+}}
+
+
+.tlist{
+    margin-top:50px;
+    font-size: 70px;
+    color:gray;
+}
+
+
+
+.tlist h1{
+    text-align:center; margin-top:80px;border-radius: 49px;
+    max-width: 750px;background-color: #ffffff;
+    box-shadow: 0 0 19px rgb(255,255,255),
+              0 0 20px rgba(109, 181, 232, 0.5);
+    border: 19px solid lightgray;
+    margin-left:250px;
+    font-size: 65px;
+    height:130px;
+}
+
+@media (max-width: 890px) {
+   .tlist h1{
+    font-size:30px;
+       margin-top:90px;
+       margin-left:auto;
+       padding-top:30px;
+}}
+
+
+.tlist h2{
+    text-align: center;margin-top:60px;
+}
+
+
+
