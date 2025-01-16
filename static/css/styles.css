@@ -89,13 +89,13 @@ background-color: lightgray;
     padding-top:70px;
 }
 .button a{margin-left:30px;
-    border: 15px solid lightgray;
+
     border-radius: 29px;
 }
 
 @media (max-width: 890px) {
    .button a{
-       width:200px;
+       width:20px;
        height:80px;
        font-size:20px;
        margin-left:30px;
@@ -134,8 +134,8 @@ background-color: lightgray;
 }
 
 .image{
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
    margin-left:500px;
     margin-top:50px;
 }
@@ -203,11 +203,11 @@ background-color: lightgray;
 
 @media (max-width: 812px) {
     .contain h1{
-        padding: 30px;
+
         align-items:center;
         max-width:300px;
         margin:auto;
-        margin-top:40px;
+        margin-top:90px;
         font-size:20px;
         max-height:100px;
 
@@ -231,11 +231,12 @@ background-color: lightgray;
 
 @media (max-width: 812px) {
     .sup h2{
-
-        font-size:18px;
-        align-items:center;
-        margin-top:-40px;
+        font-size:16px;
+        text-wrap:wrap;
+        margin-top:-30px;
         max-width:900px;
+        margin-left:-30px;
+
     }}
 
 
@@ -243,34 +244,36 @@ background-color: lightgray;
 @media (max-width: 812px) {
     .image{
         padding: 30px;
-        max-width:350px;
+        max-width:150px;
         margin:auto;
         margin-top:40px;
-        font-size:20px;
         max-height:100px;
         align-items:center;
+
+
+
     }}
 
 
 @media (max-width: 812px) {
     #first{
-        margin-top:70px;
-        width:90%;
-        height:70%;
+        margin-top:90px;
+        width:70px;
+        height:70px;
         font-size:20px;
         padding:10px;
-        margin-left: -250px;
+        margin-left: -300px;
 
     }}
 
 @media (max-width: 812px) {
     #second{
-        margin-top:70px;
-        width:80%;
-        height:70%;
+        margin-top:90px;
+        width:50px;
+        height:50px;
         font-size:20px;
-        padding:10px;
-        margin-left: 0px;
+
+        margin-left: auto;
 
     }}
 
@@ -323,10 +326,11 @@ background-color: lightgray;
 
 @media (max-width: 812px) {
     #ad h1{
-        margin-top:70px;
-        margin-left:270px;
+
+        margin-left:160px;
         font-size: 40px;
-        color:gray
+        color:gray;
+        padding-top:40px;
 
     }}
 
@@ -335,12 +339,13 @@ background-color: lightgray;
 @media (max-width: 812px) {
    .open-task h2{
         border-radius: 29px;
-            max-width: 500px;
+       max-width: 360px;
     background-color: lightgray;
     box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
                       0 0 20px rgba(109, 181, 232, 0.5);
 
-    margin-left:120px;font-size:30px;
+    margin-left:10px;
+       font-size:20px;
     border: 19px solid lightgray;
     margin-top:50px;
     text-align: -webkit-center;
@@ -362,7 +367,7 @@ background-color: lightgray;
     box-shadow: 0 0 19px rgba(255, 255, 255, 0.1),
                       0 0 20px rgba(109, 181, 232, 0.5);
     font-weight: 900;
-       margin-left: 305px;
+       margin-left: 245px;
 }}
 
 
@@ -400,3 +405,18 @@ background-color: lightgray;
 
 
 
+button{
+    align-items:center;
+    position:relative;
+    left:440px;
+}
+
+@media (max-width: 890px) {
+   button{
+       align-items:center;
+       position:relative;
+       left:440px;
+       right:200px;
+       margin-left:-240px;
+
+}}

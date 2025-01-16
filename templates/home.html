@@ -22,14 +22,18 @@
 </div>
 <div class="image">
     <img src="/static/images/block.svg">
-    <h3>
-        Massa
-    </h3>
+
 </div>
-<div id="tasks"  class="button">
-        <a id="first" href="/tasks" class="btn btn-primary btn-lg">All Task</a>
-        <a id="second" href="/add" class="btn btn-primary btn-lg">Add Task</a>
-    </div>
+<div id="tasks" >
+    <a href="/tasks" >
+            <button id="but" class="btn btn-primary btn-lg" > All Tasks</button>
+    </a>
+    <a href="/add">
+            <button type="button" class="btn btn-primary btn-lg" > Add Task </button>
+    </a>
+
+
+</div>
 
 {{ bootstrap.load_js() }}
 {% include "footer.html" %} {% endblock %}
